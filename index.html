@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animate.css  for mera bharat-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1 class="animate__bounce animate__heartBeat">Mera bharat</h1>
+        </div>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">gallery</a>
+          <a href="#">about</a>
+          <a href="#rrr">contact</a>
+        </div>
+      </nav>
+      <main>
+        <section class="sec">
+          <h3>welcome to india</h3>
+          <h1>Do come and visit <span class="change_content"></span></h1>
+          <p>"India once is not enough"</p>
+          <a href="#" class="btnone">learn more</a>
+          <a href="#" class="btntwo">signup here</a>
+        </section>
+      </main>
+      <div class="register" id="rrr">
+        <form>
+          <fieldset>
+            <legend>Contact us form:</legend>
+            <label>Name: </label>
+            <input
+              type="text"
+              name="fname"
+              placeholder="Full Name"
+              autofocus
+            /><br /><br />
+            <label>Mobile: </label>
+            <input
+              type="tel"
+              name="telephone"
+              placeholder="mobile number"
+            /><br /><br />
+            <label>Enter Email: </label>
+            <input
+              type="email"
+              name="email"
+              placeholder="your email"
+            /><br /><br />
+            <label>Gender:</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="female" />
+            &nbsp;
+            <span id="female">female</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="male" />
+            &nbsp;
+            <span id="male">Male</span><br /><br />
+            <label>Known language: </label>
+
+            <select name="language" id="language">
+              <option value="hindi">Hindi</option>
+              <option value="english">English</option>
+              <option value="sanskrit">Sanskrit</option></select
+            ><br /><br />
+            <input type="submit" value="Submit" name="submit" id="submit" />
+            &nbsp;
+            <input type="reset" value="Reset" name="reset" id="reset" /><br />
+          </fieldset>
+        </form>
+      </div>
+    </header>
+    <script src="/app.js"></script>
+  </body>
+</html>
